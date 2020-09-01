@@ -1,0 +1,234 @@
+/*
+Important In Bootstrap css in it is modified 
+for example :Many Tags we know that it is inline Elments but become a block ?!
+thats reason Css in Bootstarp modify them.
+*/
+
+/*
+The <meta> tag defines:
+  metadata about an HTML document. Metadata is data (information) about data.
+<meta> tags always go inside the <head> element.
+Meta tags are typically used to specify character set, page description,
+  keywords, author of the document, and viewport settings.
+Metadata will not be displayed on the page, but is machine parsable.
+Metadata is used by browsers (how to display content or reload page), search engines (keywords),
+  and other web services.
+There is a method to let web designers take control over the viewport (the user's visible area of a web page),
+  through the <meta> tag (See "Setting The Viewport" example below).
+
+To Define keywords for search engines:
+
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+To Define a description of your web page:
+
+	<meta name="description" content="Free Web tutorials for HTML and CSS">
+To Define the author of a page:
+
+	<meta name="author" content="John Doe">
+To Refresh document every 30 seconds:
+
+	<meta http-equiv="refresh" content="30">
+To Setting the viewport to make your website look good on all devices:
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+*/
+
+/*
+.btn:Adds basic styling to any button	
+.btn-default:Indicates a default/standard button	
+.btn-primary:Provides extra visual weight and identifies the primary action in a set of buttons	
+.btn-success:Indicates a successful or positive action	
+.btn-info:Contextual button for informational alert messages	
+.btn-warning:Indicates caution should be taken with this action	
+.btn-danger:Indicates a dangerous or potentially negative action	
+.btn-link:Makes a button look like a link (will still have button behavior)	
+.btn-lg:Makes a large button	
+.btn-sm:Makes a small button	
+.btn-xs:Makes an extra small button	
+.btn-block:Makes a block-level button (spans the full width of the parent element)	
+.active:Makes the button appear pressed	
+.disabled:Makes the button disabled	
+.navbar-btn:Vertically aligns a button inside a navbar
+*/
+
+/*
+cursor: value;
+Property Values
+	Value:Description	Play it
+	alias:The cursor indicates an alias of something is to be created	
+	all-scroll:The cursor indicates that something can be scrolled in any direction	
+	auto:Default. The browser sets a cursor	
+	cell:The cursor indicates that a cell (or set of cells) may be selected	
+	context-menu:The cursor indicates that a context-menu is available	
+	col-resize:The cursor indicates that the column can be resized horizontally	
+	copy:The cursor indicates something is to be copied	
+	crosshair:The cursor render as a crosshair	
+	default:The default cursor	
+	e-resize:The cursor indicates that an edge of a box is to be moved right (east)	
+	ew-resize:Indicates a bidirectional resize cursor	
+	grab:The cursor indicates that something can be grabbed	
+	grabbing:The cursor indicates that something can be grabbed	
+	help:The cursor indicates that help is available	
+	move:The cursor indicates something is to be moved	
+	n-resize:The cursor indicates that an edge of a box is to be moved up (north)	
+	ne-resize:The cursor indicates that an edge of a box is to be moved up and right (north/east)	
+	nesw-resize:Indicates a bidirectional resize cursor	
+	ns-resize:Indicates a bidirectional resize cursor	
+	nw-resize:The cursor indicates that an edge of a box is to be moved up and left (north/west)	
+	nwse-resize:Indicates a bidirectional resize cursor	
+	no-drop:The cursor indicates that the dragged item cannot be dropped here	
+	none:No cursor is rendered for the element	
+	not-allowed:The cursor indicates that the requested action will not be executed	
+	pointer:The cursor is a pointer and indicates a link	
+	progress:The cursor indicates that the program is busy (in progress)	
+	row-resize:The cursor indicates that the row can be resized vertically	
+	s-resize:The cursor indicates that an edge of a box is to be moved down (south)	
+	se-resize:The cursor indicates that an edge of a box is to be moved down and right (south/east)	
+	sw-resize:The cursor indicates that an edge of a box is to be moved down and left (south/west)	
+	text:	The cursor indicates text that may be selected	
+	URL:A comma separated list of URLs to custom cursors.
+	 Note:Always specify a generic cursor at the end of the list, in case none of the URL-defined cursors can be used	
+	vertical-text:	The cursor indicates vertical-text that may be selected	
+	w-resize:The cursor indicates that an edge of a box is to be moved left (west)	
+	wait:The cursor indicates that the program is busy	
+	zoom-in:The cursor indicates that something can be zoomed in	
+	zoom-out:The cursor indicates that something can be zoomed out	
+	initial:Sets this property to its default value. Read about initial	
+	inherit:Inherits this property from its parent element. Read about inherit
+*/
+/*
+Flex
+	Quickly manage the layout, alignment, and sizing of grid columns, navigation, components,
+	and more with a full suite of responsive flexbox utilities.
+	For more complex implementations, custom CSS may be necessary.
+
+Enable flex behaviors
+	Apply display utilities to create a flexbox container and transform direct children elements into flex items. Flex containers and items are able to be modified further with additional flex properties.
+
+		I'm a flexbox container!
+		<div class="d-flex p-2 bd-highlight">I'm a flexbox container!</div>
+
+		I'm an inline flexbox container!
+		<div class="d-inline-flex p-2 bd-highlight">I'm an inline flexbox container!</div>
+Responsive variations also exist for .d-flex and .d-inline-flex.
+
+		.d-flex
+		.d-inline-flex
+		.d-sm-flex
+		.d-sm-inline-flex
+		.d-md-flex
+		.d-md-inline-flex
+		.d-lg-flex
+		.d-lg-inline-flex
+		.d-xl-flex
+		.d-xl-inline-flex
+Direction
+	Set the direction of flex items in a flex container with direction utilities. 
+	In most cases you can omit the horizontal class here as the browser default is row.
+	However, you may encounter situations where you needed to explicitly set this value (like responsive layouts).
+
+Use .flex-row to set a horizontal direction (the browser default), 
+    or .flex-row-reverse to start the horizontal direction from the opposite side.
+
+Responsive variations also exist for flex-direction.
+
+	.flex-row
+	.flex-row-reverse
+	.flex-column
+	.flex-column-reverse
+	.flex-sm-row
+	.flex-sm-row-reverse
+	.flex-sm-column
+	.flex-sm-column-reverse
+	.flex-md-row
+	.flex-md-row-reverse
+	.flex-md-column
+	.flex-md-column-reverse
+	.flex-lg-row
+	.flex-lg-row-reverse
+	.flex-lg-column
+	.flex-lg-column-reverse
+	.flex-xl-row
+	.flex-xl-row-reverse
+	.flex-xl-column
+	.flex-xl-column-reverse
+Justify content
+	Use justify-content utilities on flexbox containers to change the alignment of 
+	flex items on the main axis (the x-axis to start, y-axis if flex-direction: column).
+	Choose from start (browser default), end, center, between, or around.
+	<div class="d-flex justify-content-start">...</div>
+	<div class="d-flex justify-content-end">...</div>
+	<div class="d-flex justify-content-center">...</div>
+	<div class="d-flex justify-content-between">...</div>
+	<div class="d-flex justify-content-around">...</div>
+*/
+/*
+steps to make email address to audience :
+        mailchimp login ,audience ,signup forms then setting audience name
+        then campagines then create campagin then publish then now you have a link 
+        add it to your website.
+*/ 
+/*
+steps to upload site so that any one can see it we will use githup by login
+        then start a project the download fron the internet githup for win then
+        Open it ad click on clone a Repository then sign in the search about repository
+        like (Mekawy125.github.io) then click down on open this Repository the copy and
+        paste html,css,javascript files and put them in github and write summary then
+        publish branch ,finally return to main github in the internet and refresh then
+        now we have a website.
+    Online:github then setting then github pages them master then save
+    then click on code and add file finally upload flies;     
+*/
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.btn{
+	font-weight:700;
+	border-radius:300px;
+	text-transform:uppercase;
+	padding: 10px 10px;
+
+	
+}
+.bt-xl{
+	padding: 1rem 2rem; /*When mouse click on it*/
+
+}
+.btn-success{
+	background-color:#ee4b08;
+	border-color:#ee4b08;
+	border:10px 10px;
+	
+}
+.btn-success:hover{
+	background-color:#ee4b08;
+	border-color:#ee4b08;
+	border:10px 10px;
+	border-color: yellow;
+	border-width: 2px;
+	cursor:alias;
+}
+hr{
+	border-color:#ee4b08; 
+	border-width:3px;
+	max-width: 60px; /*Width 1000 px is default*/ 
+}
+
+h1{
+	font-size:2rem;/*The default of web page is 16 px*/
+	color:white;
+	text-transform: capitalize;
+	/*,#2586e6,#0bb5e8*/
+}
+.buffer{
+	height: 6.2rem;
+}
